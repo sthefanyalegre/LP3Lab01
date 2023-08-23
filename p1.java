@@ -12,7 +12,7 @@ public class p1 {
             vida++;
             System.out.println("vida: "+vida+"\t¿Puedes adivinar el numero secreto?");
             rp = sc.nextInt();
-            if(rp ==1357)
+            if(rp ==1234)
                 
                 fl = true;
         }while(vida<3 && !fl);
@@ -21,7 +21,7 @@ public class p1 {
         else
             System.out.println("PERDISTE :(!!!");
         if(fl=true)
-            System.out.println("Su premio es un viaje!!!!");
+            System.out.println("Su premio es un viaje a Hawaii!!!!");
         
     }
 }
